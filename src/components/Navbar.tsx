@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { useAuth } from "@/contexts/AuthContext";
 import { Button } from "@/components/ui/button";
 import { LogOut } from "lucide-react";
-import AIDorseLogo from "@/assets/AIDorseLogo.png"; // pastikan path sesuai
+import AIDorseLogo from "/AiDorseLogo.png"; // pastikan path sesuai
 
 const Navbar: React.FC = () => {
   const { user, logout } = useAuth();
